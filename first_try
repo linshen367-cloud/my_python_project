@@ -1,0 +1,19 @@
+class greeter:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        return f"Hello, {self.name}!"
+    
+
+
+
+def say_goofbye(name):
+    print(f"脚本运行结束, {name}!")
+
+
+
+if __name__ == "__main__":
+    g = greeter("Alice")
+    print(g.greet())
+say_goofbye("Alice")
