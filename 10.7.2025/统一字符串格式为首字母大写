@@ -1,0 +1,12 @@
+
+#利用map（）
+def normalize(name) :
+    lower_e = name.lower()
+    n = [i for i in lower_e]
+    n[0] = n[0].upper()
+    normal_name = "".join(n)
+    return normal_name
+
+L1 = ['adam', 'LISA', 'barT']
+L2 = list(map(normalize,L1))
+print(L2)

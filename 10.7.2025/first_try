@@ -17,3 +17,6 @@ if __name__ == "__main__":
     g = greeter("Alice")
     print(g.greet())
 say_goofbye("Alice")
+
+
+#[element for element in L1 if isinstance(element,str)]##判断element是不是字符串
