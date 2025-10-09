@@ -1,7 +1,7 @@
 def is_palindrome(n):
     b = [a for a in str(n)[::-1]]
     d = [c for c in str(n)]
-    return b ==d
+    return b == d
 
 
 
